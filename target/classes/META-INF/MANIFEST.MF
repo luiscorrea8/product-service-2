@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 21
+Implementation-Title: Product Service
+Implementation-Version: 1.0.1
+Main-Class: com.splitcart.product.ProductApplication
+Created-By: Maven Integration for Eclipse
+

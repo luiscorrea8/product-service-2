@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <delete dir="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\workspace-17\product-service-2\target/generated-sources/openapi/src/test" />
+  </target>
+</project>
