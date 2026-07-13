@@ -18,7 +18,7 @@ import jakarta.annotation.Generated;
  * Availability
  */
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-07-08T17:36:35.491778700-07:00[America/Los_Angeles]", comments = "Generator version: 7.7.0")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-07-13T14:46:42.287359400-07:00[America/Los_Angeles]", comments = "Generator version: 7.7.0")
 public class Availability {
 
   private String sku;
