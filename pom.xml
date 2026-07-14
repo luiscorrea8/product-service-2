@@ -71,6 +71,12 @@
       <artifactId>jackson-databind-nullable</artifactId>
       <version>0.2.6</version>
     </dependency>
+    <!-- MapStruct -->
+    <dependency>
+      <groupId>org.mapstruct</groupId>
+      <artifactId>mapstruct</artifactId>
+      <version>1.5.5.Final</version>
+    </dependency>
     
 
 
@@ -147,6 +153,29 @@
               </globalProperties>
             </configuration>
           </execution>
+          <execution>
+            <id>generate-customer-api</id>
+            <goals><goal>generate</goal></goals>
+            <configuration>
+              <inputSpec>${project.basedir}/src/main/resources/openapi/customer-openapi.yaml</inputSpec>
+              <generatorName>spring</generatorName>
+              <output>${project.build.directory}/generated-sources/openapi</output>
+              <apiPackage>com.splitcart.customer.api</apiPackage>
+              <modelPackage>com.splitcart.customer.api.model</modelPackage>
+              <configOptions>
+                <delegatePattern>true</delegatePattern>
+                <reactive>true</reactive>
+                <useSpringBoot3>true</useSpringBoot3>
+                <useTags>true</useTags>
+              </configOptions>
+              <generateApiTests>false</generateApiTests>
+              <generateModelTests>false</generateModelTests>
+              <globalProperties>
+                <apis/>
+                <models/>
+              </globalProperties>
+            </configuration>
+          </execution>
         </executions>
       </plugin>
 
@@ -175,6 +204,18 @@
         <version>3.11.0</version>
         <configuration>
           <release>17</release>
+          <annotationProcessorPaths>
+            <path>
+              <groupId>org.projectlombok</groupId>
+              <artifactId>lombok</artifactId>
+              <version>${lombok.version}</version>
+            </path>
+            <path>
+              <groupId>org.mapstruct</groupId>
+              <artifactId>mapstruct-processor</artifactId>
+              <version>1.5.5.Final</version>
+            </path>
+          </annotationProcessorPaths>
           <excludes>
             <exclude>**/generated-sources/**/src/test/java/**</exclude>
           </excludes>

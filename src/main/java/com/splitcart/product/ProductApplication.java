@@ -8,9 +8,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @SpringBootApplication
-@EnableMongoRepositories("com.splitcart.product.repo")
-@ComponentScan("com.splitcart")
 @EnableDiscoveryClient
+@ComponentScan(basePackages = {"com.splitcart.product", "com.splitcart.customer"})
+@EnableMongoRepositories(basePackages = "com.splitcart.product.repo")
 public class ProductApplication {
 
   public static void main(String[] args) {

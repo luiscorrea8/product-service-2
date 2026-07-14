@@ -1,0 +1,173 @@
+
+openapi: 3.0.3
+info:
+  title: SplitCart Customer API
+  version: 1.0.0
+  description: API para la gestión de clientes en el sistema SplitCart.
+servers:
+  - url: http://localhost:8080
+    description: Servidor de desarrollo local
+
+tags:
+  - name: Customers
+    description: Operaciones relacionadas con los clientes
+
+paths:
+  /api/customers:
+    get:
+      tags: [Customers]
+      operationId: getAllCustomers
+      summary: Obtener todos los clientes
+      description: Devuelve una lista de todos los clientes registrados en el sistema.
+      responses:
+        '200':
+          description: Lista de clientes obtenida exitosamente.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Customer'
+    post:
+      tags: [Customers]
+      operationId: createCustomer
+      summary: Crear un nuevo cliente
+      description: Registra un nuevo cliente en el sistema.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CustomerInput'
+      responses:
+        '201':
+          description: Cliente creado exitosamente.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+        '400':
+          description: Datos de entrada inválidos.
+    put:
+      tags: [Customers]
+      operationId: updateCustomer
+      summary: Actualizar un cliente existente
+      description: Modifica los datos de un cliente existente a través de su ID.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Customer'
+      responses:
+        '200':
+          description: Cliente actualizado exitosamente.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+        '404':
+          description: Cliente no encontrado.
+
+  /api/customers/{id}:
+    get:
+      tags: [Customers]
+      operationId: getCustomerById
+      summary: Obtener un cliente por su ID
+      description: Busca y devuelve un cliente específico basado en su ID único.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID único del cliente.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Cliente encontrado.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+        '404':
+          description: Cliente no encontrado.
+    delete:
+      tags: [Customers]
+      operationId: deleteCustomer
+      summary: Eliminar un cliente por su ID
+      description: Elimina un cliente del sistema de forma permanente.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID único del cliente a eliminar.
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Cliente eliminado exitosamente (Sin contenido).
+        '404':
+          description: Cliente no encontrado.
+
+components:
+  schemas:
+    Customer:
+      type: object
+      properties:
+        id:
+          type: string
+          readOnly: true
+          description: "ID único del cliente generado por el sistema."
+        customerType:
+          type: string
+          description: "Tipo de cliente."
+          enum: [PERSONAL, ENTERPRISE, VIP, PYME]
+        documentType:
+          type: string
+          description: "Tipo de documento de identidad."
+          enum: [DNI, RUC]
+        documentNumber:
+          type: string
+          description: "Número del documento de identidad."
+        name:
+          type: string
+          description: "Nombre completo o razón social del cliente."
+        companyName:
+          type: string
+          description: "Nombre de la empresa (para tipo ENTERPRISE o PYME)."
+        email:
+          type: string
+          format: email
+          description: "Correo electrónico del cliente."
+        status:
+          type: string
+          description: "Estado del cliente en el sistema."
+          enum: [ACTIVE, INACTIVE]
+    CustomerInput:
+      type: object
+      properties:
+        customerType:
+          type: string
+          description: "Tipo de cliente."
+          enum: [PERSONAL, ENTERPRISE, VIP, PYME]
+        documentType:
+          type: string
+          description: "Tipo de documento de identidad."
+          enum: [DNI, RUC]
+        documentNumber:
+          type: string
+          description: "Número del documento de identidad."
+        name:
+          type: string
+          description: "Nombre completo o razón social del cliente."
+        companyName:
+          type: string
+          description: "Nombre de la empresa (para tipo ENTERPRISE o PYME)."
+        email:
+          type: string
+          format: email
+          description: "Correo electrónico del cliente."
+        status:
+          type: string
+          description: "Estado del cliente en el sistema."
+          enum: [ACTIVE, INACTIVE]

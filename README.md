@@ -108,7 +108,7 @@ curl -X 'POST' \
   "documentType": "DNI",
   "documentNumber": "87654321",
   "name": "Jane Smith",
-  "companyName": "",
+  "companyName": "NADA",
   "email": "jane.smith@example.com",
   "status": "ACTIVE"
 }'

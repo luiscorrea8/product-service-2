@@ -1,16 +1,32 @@
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\src\main\java\com\splitcart\product\model\Product.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\src\main\java\com\splitcart\product\service\ProductServiceImpl.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\model\Product.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\ProductsApi.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\src\main\java\com\splitcart\product\model\Availability.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\src\main\java\com\splitcart\product\ProductApplication.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\src\main\java\com\splitcart\product\service\ProductService.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\target\generated-sources\openapi\src\main\java\org\openapitools\OpenApiGeneratorApplication.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\model\Availability.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\target\generated-sources\openapi\src\main\java\org\openapitools\configuration\HomeController.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\ProductsApiController.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\src\main\java\com\splitcart\product\repo\ProductRepository.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\target\generated-sources\openapi\src\main\java\org\openapitools\RFC3339DateFormat.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\src\main\java\com\splitcart\product\api\ProductsApiDelegateImpl.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\ApiUtil.java
-C:\Proy2026\Bootcamp26\Reactividad\v7\S\product-service\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\ProductsApiDelegate.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\ProductApplication.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\api\ProductsApiDelegateImpl.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\customer\api\CustomersApiDelegate.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\service\ProductServiceImpl.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\ProductsApiController.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\org\openapitools\OpenApiGeneratorApplication.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\model\Product.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\customer\mapper\CustomerMapper.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\customer\api\ApiUtil.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\entity\enums\CustomerType.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\entity\enums\Status.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\customer\api\CustomersApiController.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\customer\api\model\CustomerInput.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\repo\CustomerRepository.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\org\openapitools\RFC3339DateFormat.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\api\CustomersApiDelegateImpl.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\service\ProductService.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\model\Availability.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\model\Availability.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\ProductsApiDelegate.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\entity\enums\DocumentType.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\repo\ProductRepository.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\org\openapitools\configuration\HomeController.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\customer\api\CustomersApi.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\entity\CustomerEntity.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\customer\api\model\Customer.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\ProductsApi.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\repo\CustomerReactiveRepository.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\model\Product.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\service\CustomerService.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\splitcart\product\repo\AvailabilityRepository.java
+C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\splitcart\product\api\ApiUtil.java
