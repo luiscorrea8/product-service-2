@@ -11,9 +11,9 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 @EnableDiscoveryClient
 @ComponentScan(basePackages = {"com.example"})
 @EnableMongoRepositories(basePackages = "com.example.repo")
-public class ProductApplication {
+public class MainApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(ProductApplication.class, args);
+    SpringApplication.run(MainApplication.class, args);
   }
 }

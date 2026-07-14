@@ -53,62 +53,16 @@
 <error line="159" column="5" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="160" column="3" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\api\ProductsApiDelegateImpl.java">
-<error line="5" column="1" severity="warning" message="Importación redundante del mismo paquete - com.example.api.ProductsApi." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
-<error line="10" column="8" severity="warning" message="Importación no usada - java.util.Arrays." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-<error line="11" column="8" severity="warning" message="Importación no usada - java.util.List." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-<error line="26" column="3" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="28" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="31" column="5" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="32" column="3" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="34" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="36" column="5" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="37" column="3" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="39" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="42" column="5" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="43" column="3" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\entity\CustomerEntity.java">
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\entity\enums\CustomerType.java">
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\entity\enums\DocumentType.java">
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\entity\enums\Status.java">
+<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\MainApplication.java">
+<error line="16" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" column="5" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="3" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
 <file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\mapper\CustomerMapper.java">
 <error line="8" column="8" severity="warning" message="Importación no usada - org.mapstruct.Mapping." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
 <error line="13" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="15" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="17" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\model\Availability.java">
-<error line="12" column="3" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="13" column="3" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\model\Product.java">
-<error line="11" severity="warning" message="La línea es mayor de 120 caracteres (encontrado 148)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
-<error line="16" column="3" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="18" column="3" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="19" column="3" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="20" column="3" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\ProductApplication.java">
-<error line="16" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="17" column="5" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="18" column="3" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\repo\AvailabilityRepository.java">
-<error line="12" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\repo\CustomerReactiveRepository.java">
-<error line="10" column="61" severity="warning" message="&apos;{&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="10" column="62" severity="warning" message="&apos;}&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\repo\CustomerRepository.java">
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\repo\ProductRepository.java">
-<error line="16" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
 <file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\service\CustomerService.java">
 <error line="7" column="8" severity="warning" message="Importación no usada - java.util.Optional." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
@@ -133,24 +87,6 @@
 <error line="65" column="27" severity="warning" message="El hijo de &apos;block&apos; estás en el nivel de sangrado 26, pero esto no es el nivel correcto. Se esperaba el nivel 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="66" column="27" severity="warning" message="El hijo de &apos;block&apos; estás en el nivel de sangrado 26, pero esto no es el nivel correcto. Se esperaba el nivel 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="70" column="3" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\service\ProductService.java">
-<error line="13" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="15" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="17" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-</file>
-<file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\src\main\java\com\example\service\ProductServiceImpl.java">
-<error line="24" column="3" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="25" column="3" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="27" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="29" column="5" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="31" column="3" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="33" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="35" column="5" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="41" column="3" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="43" column="3" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="45" column="5" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="47" column="3" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 2, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
 <file name="C:\Users\luiyance\OneDrive - NTT DATA EMEAL\Documentos\htdocs\arquitectura-software-udemy\microservices\ms-customers\target\generated-sources\openapi\src\main\java\com\example\api\ApiUtil.java">
 </file>
