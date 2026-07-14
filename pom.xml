@@ -21,7 +21,7 @@
     <java.version>17</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spring-cloud.version>2023.0.2</spring-cloud.version>
-    <start-class>com.splitcart.product.ProductApplication</start-class>
+    <start-class>com.example.ProductApplication</start-class>
   </properties>
 
   <dependencies>
@@ -136,8 +136,8 @@
               <inputSpec>${project.basedir}/src/main/resources/openapi/product-openapi.yaml</inputSpec>
               <generatorName>spring</generatorName>
               <output>${project.build.directory}/generated-sources/openapi</output>
-              <apiPackage>com.splitcart.product.api</apiPackage>
-              <modelPackage>com.splitcart.product.api.model</modelPackage>
+              <apiPackage>com.example.api</apiPackage>
+              <modelPackage>com.example.api.model</modelPackage>
               <configOptions>
                 <delegatePattern>true</delegatePattern>
                 <reactive>true</reactive>
@@ -160,8 +160,8 @@
               <inputSpec>${project.basedir}/src/main/resources/openapi/customer-openapi.yaml</inputSpec>
               <generatorName>spring</generatorName>
               <output>${project.build.directory}/generated-sources/openapi</output>
-              <apiPackage>com.splitcart.customer.api</apiPackage>
-              <modelPackage>com.splitcart.customer.api.model</modelPackage>
+              <apiPackage>com.example.api</apiPackage>
+              <modelPackage>com.example.api.model</modelPackage>
               <configOptions>
                 <delegatePattern>true</delegatePattern>
                 <reactive>true</reactive>
